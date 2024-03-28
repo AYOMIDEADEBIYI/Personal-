@@ -1,0 +1,89 @@
+/*============== UNIVERSAL STYLE ==================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+
+/*============== CONTAINER ==================*/
+
+.box_container {
+    background-color: rgba(128, 128, 128, 0.288);
+    height: auto;
+    margin: auto;
+    width: 500px;
+    padding: 2px 12px;
+}
+
+.container {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+/*============== IMAGE ==================*/
+
+img {
+    width: 100%;
+    border-radius: 100px;
+    height: 29vh;
+    object-fit: cover;
+}
+
+/*============== TEXT ==================*/
+
+.text {
+    text-align: center;
+}
+
+.text h2 {
+    color: greenyellow;
+    margin: 19px 0;
+}
+
+.text h3,
+p {
+    color: white;
+    margin: 12px 0px;
+}
+
+/*============== BUTTON ==================*/
+
+.social_media_links button {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 12px;
+    background-color: rgba(85, 83, 83, 0.699);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 9px 0;
+    font-size: 14px;
+    transition-duration: .2s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.social_media_links button:hover {
+    background-color: gray;
+}
+
+/*============== MEDIA QUERIES ==================*/
+
+@media (min-width: 1024px) {
+    .box_container {
+        height: 100vh;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .box_container {
+        margin: -2.1px 0;
+    }
+
+}
